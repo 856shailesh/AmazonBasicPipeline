@@ -9,6 +9,11 @@
                 class-name="com.sk.listener.TestAllureListener" />
     </listeners>
 
+    <test name="Amazon Home Page Test">
+        <classes>
+            <class name="com.sk.test.HomePageTest" />
+        </classes>
+    </test>
     <test name="Amazon Login Page Test">
         <classes>
             <class name="com.sk.test.LoginPageTest" />
